@@ -1,7 +1,6 @@
 FROM php:7.4.10-alpine3.12
-
+LABEL maintainer="Daniel Rataj <daniel.rataj@centrum.cz>"
 LABEL org.opencontainers.image.source="https://github.com/whoopsmonitor/whoopsmonitor-check-rabbitmq-queue-count"
-
 LABEL com.whoopsmonitor.documentation="https://github.com/whoopsmonitor/whoopsmonitor-check-rabbitmq-queue-count"
 LABEL com.whoopsmonitor.env.WM_RABBITMQ_QUEUE=""
 LABEL com.whoopsmonitor.env.WM_RABBITMQ_HOST=""
